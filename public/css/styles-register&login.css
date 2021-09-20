@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*inicio header*/
+
+#logo {
+    width: 50%;
+}    
+
+body { 
+    background-color:#ebebeb ; font-family: 'Roboto', sans-serif; 
+}
+
+header {
+    background-color:#EAC926;
+    margin-bottom: 10px;
+}
+
+.topnav { 
+    overflow: hidden; 
+    background-color: white; 
+    width: 90vw;
+    border-radius: 5px;
+    border: solid 1px black;   
+}
+.usd {
+    font-size: 24px;
+}
+
+.search { 
+    overflow: hidden;
+    background-color: white;
+    margin: 0 5px 0 5px;
+    border-radius: 5px;
+    border: solid 1px black;
+}  
+
+#logos { 
+    background-color:#EAC926;  
+    font-size: 16px;
+}
+.top-header {
+    flex: display;
+}
+
+.top-header-left {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+.usd {
+    background-color: #EAC926;
+}
+.manito {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.main-menu {
+    display: none;
+    justify-content: space-around;
+}
+
+.main-menu ul {
+    display: flex;
+}
+
+li { 
+    margin: 0 10px;
+    font-size:12px;
+}
+
+a {
+    font-size: 16px;
+}
+/*fin header*/
+
+/* inicio hamburgueza*/
+
+.icono {
+    font-size: 1.5em;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px
+
+}
+.burger-menu{
+    text-align: center;
+}
+/* fin hamburgueza*/
+
+/* inicio form */
+
+    form {
+    text-align: center;
+    font-size: 18px;
+    }
+    .control-formulario { 
+        margin-bottom: 20px ;              
+    }
+    .control-formulario label {
+        margin-bottom: 5px;
+        font-style: italic;
+        
+    }
+    .control-formulario input {
+        margin:auto;        
+    }
+    .control {
+        width: 300px;
+        padding: 8px 8px; 
+        margin-bottom: 15px ;
+        border: none; 
+        border-radius: 5px;        
+    }
+    .puntitos {
+        display: block;
+        
+        margin: 0 30px;
+    }
+    .boton {
+        background-color: #39b54a;
+        border: none;
+        font-size: 20px;
+        color:#ffffff;
+        padding: 5px 10px;
+        border-radius: 5px; 
+        transition: background-color 400ms;
+    }
+    .boton:hover {
+        background-color: #0022AA;
+    }
+    .control-formulario p{
+        font-size: 20px;
+        font-weight:800;
+        margin: 12px 0;
+    }
+/*fim form*/
+
+/*inicio footer*/
+
+footer {
+    background-color: white ;
+    margin:auto;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.textoResaltado {
+    font-weight:bold;
+}
+.logoFooter {
+    color:  blue;
+    text-align: center;
+    background-color: white;
+    font-size: 2em;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/*fin footer*/
+    
+
+    @media (max-width: 361px) {
+        h2 { 
+            font-size:24px;
+            color:  #666;
+            margin: 10px 
+        }
+        
+        p { font-size:12px; 
+        margin: 10px;}
+    }
+
+    
+    @media (min-width: 761px) {
+        #logo {
+            width: 40%;
+        }
+        .main-menu {
+            display: flex;
+            justify-content: space-around;
+            padding: 14px 0;
+        }
+        .burger-menu {
+            display: none;
+        }
+        .top-header-left {
+            width: 40vw;
+        }
+    
+        .top-header {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    }
+    
+    @media (min-width: 1280px) {
+        #logo {
+            width: 40%;
+        }
+        .main-menu {
+            padding-bottom: 14px;
+        }
+        footer {
+            font-size: 27px;
+        }
+        h3 , p {
+            font-size: 27px;
+        }
+        .copyR {
+            margin-top: 30px;
+            font-size: 20px;
+            text-align: center;
+        }
+        a {
+            font-size: 24px;
+        }
+        #logos {
+            font-size: 24px ;
+        }
+        .manito {
+            font-size: 24px;
+        }
+        .texto-footer {
+            display: flex;
+            justify-content: space-between;
+        }
+        .logoFooter:hover{
+            color:salmon;  
+    }  
+    }
+    
