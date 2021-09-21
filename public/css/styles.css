@@ -280,11 +280,8 @@ footer {
         width: 100vw;
         flex-wrap: wrap;        
     }
-    .truck {
-        margin-left: 280px;
-    }
     article {
-        max-width: 340px;
+        max-width: 400px;
     }  
 
     .precio , .descuento , .producto {
