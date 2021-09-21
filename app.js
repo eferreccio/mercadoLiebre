@@ -11,9 +11,9 @@ app.listen(process.env.PORT || 3000, function(){
 app.get('/', function(req,res){
     res.sendFile(path.resolve(__dirname,'views/home.html'));
 });
-app.get('/register', function(req,res){
+app.get('./register', function(req,res){
     res.sendFile(path.resolve(__dirname,'views/register.html'));
 });
-app.get('/login', function(req,res){
+app.get('./login', function(req,res){
     res.sendFile(path.resolve(__dirname,'views/login.html'));
 });

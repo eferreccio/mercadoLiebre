@@ -239,7 +239,7 @@ footer {
     }
     
     article { 
-        width: 380px;
+        width: 360px;
         transition: box-shadow 700ms;
         margin: 10px;
     }
