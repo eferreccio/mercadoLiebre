@@ -166,7 +166,7 @@ article {
     
 }
 
-.truck:hover {
+article:hover .truck {
 transform: rotate(-90deg)
 }
 
