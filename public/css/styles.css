@@ -281,8 +281,11 @@ footer {
         flex-wrap: wrap;        
     }
     article {
-        max-width: 400px;
+        max-width: 330px;
     }  
+    .truck {
+        margin-left: 270px;
+    }
 
     .precio , .descuento , .producto {
         font-size: 32px;
