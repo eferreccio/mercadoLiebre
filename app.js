@@ -5,7 +5,7 @@ const publicPath = path.resolve(__dirname, './public');
 
 app.use(express.static(publicPath)) 
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
     console.log("corriendo el server 3000");
 });
 app.get('/', function(req,res){
