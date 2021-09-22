@@ -283,6 +283,9 @@ footer {
     article {
         max-width: 22vw;
     }
+    .article-data {
+        font-size: 14px;
+    }
     .truck {
         margin-left: 220px;
     }
